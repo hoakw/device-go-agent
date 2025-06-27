@@ -1,0 +1,11 @@
+[Unit]
+Description=EdgeHealth
+
+[Service]
+User=root
+ExecStart=/usr/local/bin/edge-health
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,10 @@
+[Unit]
+Description=Edge Metric Collector service
+
+[Service]
+ExecStart=/usr/local/bin/edge_collector -host=nodename -rule=rulename -amqp=amqphost
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

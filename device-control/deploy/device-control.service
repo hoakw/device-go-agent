@@ -1,0 +1,10 @@
+[Unit]
+Description=device-control
+
+[Service]
+ExecStart=/usr/local/bin/device-control
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

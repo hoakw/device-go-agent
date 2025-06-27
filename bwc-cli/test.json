@@ -1,0 +1,17 @@
+{
+  "version": "bwc/v2",
+  "spec": {
+    "appName": "test-app",
+    "runFile": "main.py",
+    "env": {
+      "bin": "python3",
+      "virtualEnv": "mqtt-env8",
+      "package": "requirements.txt",
+      "runtime": "python3.9"
+    }
+  },
+  "stackbase": {
+    "tagName": "v0.0.2",
+    "repoName": "mqtt-base-app3"
+  }
+}
